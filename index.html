@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+
+<head>
+
+  <meta charset="utf-8">
+
+  <!-- SEO -->
+  <title>Law Collection</title>
+
+
+  <meta name="viewport" content="minimum-scale=1.0,initial-scale=1.0">
+
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css" /> -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css"
+    integrity="sha256-D9M5yrVDqFlla7nlELDaYZIpXfFWDytQtiV+TaH6F1I=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/nouislider@14.1.1/distribute/nouislider.css"
+    integrity="sha256-CmL0R8uqObLbJjq6ncll1SKozYT4XPYkvnlTtqkNEGw=" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style.css" />
+
+  <script src="https://cdn.jsdelivr.net/npm/wnumb@1.2.0/wNumb.min.js"
+    integrity="sha256-DkHIFUKQfqQ7jA6GnWR9ZyB4Jb+j+dOuY12vnYq8xjk=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/nouislider@14.1.1/distribute/nouislider.min.js"
+    integrity="sha256-y1klS9J9hGwxlUYtHKYbu3bXLn1+4r9NQBoOmaDSVkQ=" crossorigin="anonymous"></script>
+  <script src="jssource.js"></script>
+
+</head>
+
+<body>
+
+  <!-- TEMPLATES -->
+  <div id="template" class="tile video is-child is-3" onclick="changeVideo(this)">
+    <!-- The magical tile element! -->
+    <img class="is-16by9 image">
+    <!-- <div class="label"> -->
+      <span class="thumb thumbTitle"></span>
+      <span class="thumb thumbYear"></span>
+    <!-- </div> -->
+  </div>
+
+  <div id="parentTemplate" class="tile is-parent is-12 is-horizontal"></div>
+
+  <!-- END TEMPLATES -->
+
+  <section class="hero">
+    <iframe id="big" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen></iframe>
+
+    <!-- Hero content: will be in the middle -->
+    <div class="hero-body" id="infoHero">
+
+      <h1 class="title" id="songTitle">Title</h1>
+      <h2 class="subtitle" id="songArtist">Artist</h2>
+      <h3 id="performer" class="title is-5">Performer</h3>
+
+    </div>
+
+    <!-- Hero footer: will stick at the bottom -->
+    <div class="hero-foot ">
+
+      <h1 class="title" id="matthew-label">
+        BROWSE VIDEOS
+      </h1>
+
+      <div class="tile is-ancestor">
+
+        <hr />
+
+        <!-- <div  class="tile is-ancestor is-12"> -->
+
+          <div id="controls"class="tags tile is-ancestor is-12 is-vertical">
+
+            <div class="tile is-parent is-horizontal is-12">
+
+              <div class="tags tile is-child is-8" id="taglist">
+                <label>Tags:</label>
+              </div>
+
+              <div id="slider-container" class="tile is-child is-4">
+                <div id="yearsSlider"></div>
+              </div>
+
+            </div>
+
+              <div class="tags tile is-parent is-12">
+                <div class="tile is-child is-7">
+                  <div class="tags" id="instruments">
+                    <label>Instruments:</label>
+                  </div>
+                </div>
+                <div class="tile is-child is-5">
+                  <div class="tags" id="player">
+                    <label>Performer:</label>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="field is-grouped is-parent is-12">
+                <p class="control is-expanded">
+                  <input class="input" id="search" type="text" placeholder="Search for a year, title or original artist">
+                </p>
+                <p class="control">
+                  <a class="button is-info" id="searchButton">
+                    Search
+                  </a>
+                </p>
+              </div>
+            </div>
+      </div>
+    </div>
+
+
+
+    </div>
+
+  </section>
+
+
+
+
+  <div id="container" class="tile is-ancestor">
+  </div>
+
+
+</body>
+
+</html>
