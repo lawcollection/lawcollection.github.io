@@ -191,6 +191,15 @@ h3.title.is-5 {
 	font-style: italic;
 }
 
+.navbar, .navbar-brand, .navbar-menu {
+	background-color: #eee;
+}
+
+.navbar {
+	position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
 /* #classical {
 	background-color: rgb(121, 85, 56);
 }

@@ -112,6 +112,9 @@ function setBig (video, play) {
 		document.getElementById("big").src = `https://www.youtube.com/embed/${video.id}?&theme=dark&color=white&autohide=2&modestbranding=1&showinfo=0&rel=0&iv_load_policy=3"frameborder="0"`;
 	}
 
+	if (video.description !== undefined) {
+		document.getElementById("description").innerText = video.description;
+	}
 }
 
 function changeVideo (clicked) {
@@ -381,8 +384,6 @@ function search () {
 	const results = [];
 	const query = document.getElementById("search").value.toLowerCase();
 
-	console.log(query)
-
 	for (var video in videos) {
 
 		let tagPass = false;
@@ -524,5 +525,27 @@ window.onload = function (){
 		// Enter is pressed
 		if (e.keyCode == 13) { document.getElementById("searchButton").click() }
 	}, false);
+
+	// Get all "navbar-burger" elements
+	const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll(".navbar-burger"), 0);
+
+	// Check if there are any navbar burgers
+	if ($navbarBurgers.length > 0) {
+
+		// Add a click event on each of them
+		$navbarBurgers.forEach( el => {
+			el.addEventListener("click", () => {
+
+				// Get the target from the "data-target" attribute
+				const target = el.dataset.target;
+				const $target = document.getElementById(target);
+
+				// Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+				el.classList.toggle("is-active");
+				$target.classList.toggle("is-active");
+
+			});
+		});
+	}  
 
 }

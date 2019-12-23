@@ -24,6 +24,7 @@ def read_csv(file, json_file):
             if bool(row["Title"] and row["YouTube url"]):
 
                 videosObj = {}
+                videosObj["rowNum"] = row["#"]
                 videosObj["title"] = row["Title"]
                 videosObj["attribution"] = row["Attribution"]
 

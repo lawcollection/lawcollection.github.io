@@ -7,11 +7,10 @@
 
   <!-- SEO -->
   <title>Law Collection</title>
-
+  <link rel="shortcut icon" href="favicon.ico" />
 
   <meta name="viewport" content="minimum-scale=1.0,initial-scale=1.0">
 
-  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css" /> -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css"
     integrity="sha256-D9M5yrVDqFlla7nlELDaYZIpXfFWDytQtiV+TaH6F1I=" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/nouislider@14.1.1/distribute/nouislider.css"
@@ -28,6 +27,43 @@
 
 <body>
 
+  <!-- <nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+  
+      <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+  
+    <div id="navbarBasicExample" class="navbar-menu">
+      <div class="navbar-start">
+        <a class="navbar-item">
+          Home
+        </a>
+  
+        <a class="navbar-item">
+          Documentation
+        </a>
+  
+
+      </div>
+  
+      <div class="navbar-end">
+        <div class="navbar-item">
+          <div class="buttons">
+            <a class="button is-primary">
+              <strong>Sign up</strong>
+            </a>
+            <a class="button is-light">
+              Log in
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav> -->
   <!-- TEMPLATES -->
   <div id="template" class="tile video is-child is-3" onclick="changeVideo(this)">
     <!-- The magical tile element! -->
@@ -53,14 +89,16 @@
       <h2 class="subtitle" id="songArtist">Artist</h2>
       <h3 id="performer" class="title is-5">Performer</h3>
 
+      <p id="description"></p>
+
     </div>
 
     <!-- Hero footer: will stick at the bottom -->
     <div class="hero-foot ">
 
-      <h1 class="title" id="matthew-label">
+      <!-- <h1 class="title" id="matthew-label">
         BROWSE VIDEOS
-      </h1>
+      </h1> -->
 
       <div class="tile is-ancestor">
 
