@@ -12,7 +12,7 @@ with open("data.json", "r") as f:
 
 for i in data["videos"]:
 
-    if i["year"] == 2015:
+    if i["year"] == 2015 or i["year"] == 2019:
 
         # Go to the youtube page
         driver.get("https://www.youtube.com/watch?v="+i["id"])

@@ -112,8 +112,11 @@ function setBig (video, play) {
 		document.getElementById("big").src = `https://www.youtube.com/embed/${video.id}?&theme=dark&color=white&autohide=2&modestbranding=1&showinfo=0&rel=0&iv_load_policy=3"frameborder="0"`;
 	}
 
+	// Set description
 	if (video.description !== undefined) {
 		document.getElementById("description").innerText = video.description;
+	} else {
+		document.getElementById("description").innerText = "";
 	}
 }
 
