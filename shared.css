@@ -15,3 +15,7 @@
 p {
 	margin-bottom: 2em;
 }
+
+#trailer {
+	max-width: 100%;
+}

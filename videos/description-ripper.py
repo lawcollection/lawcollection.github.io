@@ -5,13 +5,15 @@ from selenium.webdriver.support.ui import WebDriverWait
 import json
 
 data = {}
-driver = webdriver.Firefox()
+geckoPath = "/"
+driver = webdriver.Firefox(geckoPath)
+
 
 with open("data.json", "r") as f:
     data = json.load(f)
 
 for i in data["videos"]:
-
+    print(i["year"])
     if i["year"] == 2015 or i["year"] == 2019:
 
         # Go to the youtube page
