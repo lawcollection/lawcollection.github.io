@@ -118,6 +118,8 @@ function setBig (video, play) {
 	} else {
 		document.getElementById("description").innerText = "";
 	}
+
+	document.getElementById("year").innerText = video.year;
 }
 
 function changeVideo (clicked) {

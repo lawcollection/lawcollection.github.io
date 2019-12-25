@@ -191,6 +191,14 @@ h3.title.is-5 {
 	font-style: italic;
 }
 
+#year {
+	margin-bottom: 0;
+}
+
+#songTitle {
+	margin-bottom: 0.8em;
+}
+
 /* #classical {
 	background-color: rgb(121, 85, 56);
 }
