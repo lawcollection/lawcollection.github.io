@@ -782,7 +782,7 @@
 		"instruments": ["Piano"],
 		"tags": [],
 		"id": "0HMntDPdQII",
-		"description": "I play 'John My Beloved' from Sufjan Stevens' album 'Carrie and Lowell'\n\nOriginal song: https://youtu.be/wVZUBMUekck\nOveranalysis of the lyrics: "
+		"description": "<span>I play 'John My Beloved' from Sufjan Stevens' album 'Carrie and Lowell'\n\nOriginal song: </span><a href=\"https://youtube.com/watch?v=wVZUBMUekck\">https://youtu.be/wVZUBMUekck</a><span>\nOveranalysis of the lyrics: </span><a href=\"http://genius.com/Sufjan-stevens-john-my-beloved-lyrics\">http://genius.com/Sufjan-stevens-john...</a>"
 	}, {
 		"rowNum": "79",
 		"title": "It's OK",
@@ -793,7 +793,7 @@
 		"instruments": ["Piano"],
 		"tags": [],
 		"id": "QWPjiOpGFMc",
-		"description": "I play 'It's OK' by Tom Rosenthal.\n\nOriginal song: https://youtu.be/Khpzs-7WWeA"
+		"description": "<span>I play 'It's OK' by Tom Rosenthal.\n\nOriginal song: </span><a href=\"https://youtube.com/watch?v=Khpzs-7WWeA\">https://youtu.be/Khpzs-7WWeA</a>"
 	}, {
 		"rowNum": "80",
 		"title": "Blackbird",
@@ -804,7 +804,7 @@
 		"instruments": ["Piano"],
 		"tags": ["Best of"],
 		"id": "6Q3A5Luem74",
-		"description": "I play 'Blackbird' from The Beatles' White Album.\n\nVersion I (tried to) copy: https://youtu.be/24ojKwzDwME"
+		"description": "<span>I play 'Blackbird' from The Beatles' White Album.\n\nVersion I (tried to) copy: </span><a href=\"https://youtube.com/watch?v=24ojKwzDwME\">https://youtu.be/24ojKwzDwME</a>"
 	}, {
 		"rowNum": "81",
 		"title": "My Heart Will Go On",
@@ -815,7 +815,7 @@
 		"instruments": ["Piano"],
 		"tags": ["Film"],
 		"id": "SpQU2kAL_Ro",
-		"description": "Love, passion, trust. Never Let Go.\nI attempt to play 'My Heart Will Go On' by C\u00e9line Dion\n\nOriginal song: "
+		"description": "<span>Love, passion, trust. Never Let Go.\nI attempt to play 'My Heart Will Go On' by C\u00e9line Dion\n\nOriginal song: </span><a href=\"https://youtube.com/watch?v=WNIPqafd4As\">https://youtu.be/WNIPqafd4As</a>"
 	}, {
 		"rowNum": "82",
 		"title": "Wet Hands",
@@ -826,7 +826,7 @@
 		"instruments": ["Piano"],
 		"tags": ["Game"],
 		"id": "PeE7cwUZ_3g",
-		"description": "I play/poorly sightread 'Wet Hands' aka 'piano2' by Daniel Rosenfeld, aka C418\n\nOriginal song: https://c418.bandcamp.com/album/minec...\nSheet music I used: "
+		"description": "<span>I play/poorly sightread 'Wet Hands' aka 'piano2' by Daniel Rosenfeld, aka C418\n\nOriginal song: </span><a href=\"https://c418.bandcamp.com/album/minecraft-volume-alpha\">https://c418.bandcamp.com/album/minec...</a><span>\nSheet music I used: </span><a href=\"http://sebastianwolff.info/download/minecraft/13.%20Wet%20Hands.pdf\">http://sebastianwolff.info/download/m...</a>"
 	}, {
 		"rowNum": "83",
 		"title": "Sweden",
@@ -837,7 +837,7 @@
 		"instruments": ["Piano"],
 		"tags": ["Game"],
 		"id": "53EyWtVesOY",
-		"description": "I play 'Sweden' aka 'calm3' by Daniel Rosenfeld, aka C418 \n\nOriginal song: https://c418.bandcamp.com/album/minec...\nSheet music I used: "
+		"description": "<span>I play 'Sweden' aka 'calm3' by Daniel Rosenfeld, aka C418 \n\nOriginal song: </span><a href=\"https://c418.bandcamp.com/album/minecraft-volume-alpha\">https://c418.bandcamp.com/album/minec...</a><span>\nSheet music I used: </span><a href=\"http://sebastianwolff.info/download/minecraft/18.%20Sweden.pdf\">http://sebastianwolff.info/download/m...</a>"
 	}, {
 		"rowNum": "84",
 		"title": "Your Hand in Mine",
@@ -859,7 +859,7 @@
 		"instruments": ["Piano"],
 		"tags": ["Pop"],
 		"id": "n-MfaeXdho8",
-		"description": "I play 'The Scientist' by Coldplay and/or 'River Flows in You' by Yiruma. I'm easily confused.\n\nThe Scientist: https://youtu.be/RB-RcX5DS5A\nRiver Flows in You: "
+		"description": "<span>I play 'The Scientist' by Coldplay and/or 'River Flows in You' by Yiruma. I'm easily confused.\n\nThe Scientist: </span><a href=\"https://youtube.com/watch?v=RB-RcX5DS5A\">https://youtu.be/RB-RcX5DS5A</a><span>\nRiver Flows in You: </span><a href=\"https://youtube.com/watch?v=7maJOI3QMu0\">https://youtu.be/7maJOI3QMu0</a>"
 	}, {
 		"rowNum": "86",
 		"title": "Chocolate Rain",
@@ -870,7 +870,7 @@
 		"instruments": ["Piano"],
 		"tags": [],
 		"id": "w5SdT5USrRk",
-		"description": "I'm not quite sure why I learnt this. Meh.\n\nOriginal song: https://youtu.be/EwTZ2xpQwpA"
+		"description": "<span>I'm not quite sure why I learnt this. Meh.\n\nOriginal song: </span><a href=\"https://youtube.com/watch?v=EwTZ2xpQwpA\">https://youtu.be/EwTZ2xpQwpA</a>"
 	}, {
 		"rowNum": "87",
 		"title": "I Giorni",
@@ -881,7 +881,7 @@
 		"instruments": ["Piano"],
 		"tags": ["Classical", "Best of"],
 		"id": "nvzjBIt_ipI",
-		"description": "I play a favourite, 'I Giorni' (Italian for 'the days') by Ludovico Einaudi\n\nOriginal piece: https://youtu.be/Uffjii1hXzU"
+		"description": "<span>I play a favourite, 'I Giorni' (Italian for 'the days') by Ludovico Einaudi\n\nOriginal piece: </span><a href=\"https://youtube.com/watch?v=Uffjii1hXzU\">https://youtu.be/Uffjii1hXzU</a>"
 	}, {
 		"rowNum": "88",
 		"title": "John Wayne Gacy Jr",
@@ -891,8 +891,7 @@
 		"year": 2015,
 		"instruments": ["Piano"],
 		"tags": ["Pop"],
-		"id": "sCcw2o-oQwE",
-		"description": ""
+		"id": "sCcw2o-oQwE"
 	}, {
 		"rowNum": "89",
 		"title": "Cancer",
@@ -913,8 +912,7 @@
 		"year": 2015,
 		"instruments": ["Piano"],
 		"tags": ["Film"],
-		"id": "PEorv99yFbs",
-		"description": ""
+		"id": "PEorv99yFbs"
 	}, {
 		"rowNum": "91",
 		"title": "Metamorphosis One and Two",
@@ -935,8 +933,7 @@
 		"year": 2015,
 		"instruments": ["Guitar"],
 		"tags": ["Pop"],
-		"id": "gH8XPK88wgQ",
-		"description": ""
+		"id": "gH8XPK88wgQ"
 	}, {
 		"rowNum": "93",
 		"title": "Kimi wo Nosete (Carrying You)",
@@ -947,7 +944,7 @@
 		"instruments": ["Guitar"],
 		"tags": ["Film"],
 		"id": "SHBwtoemzcc",
-		"description": "Apparently I play the guitar now?\n\nVideo I learnt it from: http://youtu.be/--kqWZiMGqg"
+		"description": "<span>Apparently I play the guitar now?\n\nVideo I learnt it from: </span><a href=\"https://youtube.com/watch?v=--kqWZiMGqg\">http://youtu.be/--kqWZiMGqg</a>"
 	}, {
 		"rowNum": "94",
 		"title": "Prelude and Fugue in C minor",
@@ -1208,7 +1205,7 @@
 		"instruments": ["Piano"],
 		"tags": [],
 		"id": "dmRY_tNFr_k",
-		"description": "I learnt this as a joke, but it's actually much harder to play than it sounds (as I make manifestly obvious throughout\u2026)\n\nThe original in all its glory: "
+		"description": "<span>I learnt this as a joke, but it's actually much harder to play than it sounds (as I make manifestly obvious throughout\u2026)\n\nThe original in all its glory: </span><a href=\"https://youtube.com/watch?v=Twi92KYddW4\">https://youtu.be/Twi92KYddW4</a>"
 	}, {
 		"rowNum": "120",
 		"title": "Dot",
@@ -1219,7 +1216,7 @@
 		"instruments": ["Piano"],
 		"tags": [],
 		"id": "1HFDwqaaZh8",
-		"description": "A piece by Canadian composer Jason Charles Beck, aka Chilly Gonzales. The way I play it sounds different to the way he plays it here (https://youtu.be/z-UFfmkkin4?t=20), but that also sounds different to the ways he plays it here (https://youtu.be/ATnrhTRoqlo?t=5) or here (), and they're all different to the way it's written in the sheet music, so I'm not hugely fussed by that."
+		"description": "<span>A piece by Canadian composer Jason Charles Beck, aka Chilly Gonzales. The way I play it sounds different to the way he plays it here (</span><a href=\"https://youtube.com/watch?v=z-UFfmkkin4\">https://youtu.be/z-UFfmkkin4?t=20</a><span>), but that also sounds different to the ways he plays it here (</span><a href=\"https://youtube.com/watch?v=ATnrhTRoqlo\">https://youtu.be/ATnrhTRoqlo?t=5</a><span>) or here (</span><a href=\"https://youtube.com/watch?v=ZAfbyTHRf8g\">https://youtu.be/ZAfbyTHRf8g?t=15</a><span>), and they're all different to the way it's written in the sheet music, so I'm not hugely fussed by that.</span>"
 	}, {
 		"rowNum": "121",
 		"title": "TSLAMP",
@@ -1230,7 +1227,7 @@
 		"instruments": ["Piano"],
 		"tags": ["Pop"],
 		"id": "NzdK7cINxAI",
-		"description": "An interpretation of \"TSLAMP\"  (whose chief lyric is \"time spent looking at my phone\"), from MGMT's 2018 album Little Dark Age. I hadn't played this for about a year before recording it, but I saw it on my list of planned (but never recorded) pieces for the 2018's edition of the Law Collection, and delusionally thought that I would still be able to play it with a semblance of fluency. As documented above, I was wrong.\n\nOriginal song: "
+		"description": "<span>An interpretation of \"TSLAMP\"  (whose chief lyric is \"time spent looking at my phone\"), from MGMT's 2018 album Little Dark Age. I hadn't played this for about a year before recording it, but I saw it on my list of planned (but never recorded) pieces for the 2018's edition of the Law Collection, and delusionally thought that I would still be able to play it with a semblance of fluency. As documented above, I was wrong.\n\nOriginal song: </span><a href=\"https://youtube.com/watch?v=T8EL51jlrJA\">https://youtu.be/T8EL51jlrJA</a>"
 	}, {
 		"rowNum": "122",
 		"title": "Maud Gone",
@@ -1241,7 +1238,7 @@
 		"instruments": ["Piano"],
 		"tags": ["Pop"],
 		"id": "Fx-E-lgt8Fo",
-		"description": "Originally from the 2011 self-produced album Monomania, \"Maud Gone\" was re-recorded once Car Seat Headrest was signed to Matador and transitioned from a teenager in his bedroom to a full band, and released on 2015's Teens of Style. I also borrow the melody of a sample used in some of the live performances of the track ().\n\n2011 version: \n2015 version: "
+		"description": "<span>Originally from the 2011 self-produced album Monomania, \"Maud Gone\" was re-recorded once Car Seat Headrest was signed to Matador and transitioned from a teenager in his bedroom to a full band, and released on 2015's Teens of Style. I also borrow the melody of a sample used in some of the live performances of the track (</span><a href=\"https://youtube.com/watch?v=oP563UdVILU\">https://youtu.be/oP563UdVILU?t=65</a><span>).\n\n2011 version: </span><a href=\"https://carseatheadrest.bandcamp.com/track/maud-gone\">https://carseatheadrest.bandcamp.com/...</a><span>\n2015 version: </span><a href=\"https://carseatheadrest.bandcamp.com/track/maud-gone-4\">https://carseatheadrest.bandcamp.com/...</a>"
 	}, {
 		"rowNum": "123",
 		"title": "Nefeli",
@@ -1263,7 +1260,7 @@
 		"instruments": ["Piano"],
 		"tags": [],
 		"id": "gzQ5mQulmig",
-		"description": "\"Pluto\" comes from the 2017 album Planetarium, a collaboration between the oft-covered (by me) Sufjan Stevens, Bryce Dessner of the indie rock band The National, drummer James McAlister, and contemporary classical music composer and arranger Nico Muhly. I hadn't played it for a year or two before finding it on a previous year's tracklist-shortlist and attempting to see how much I could remember of it. (Spoiler: not much.)\n\nOriginal song: "
+		"description": "<span>\"Pluto\" comes from the 2017 album Planetarium, a collaboration between the oft-covered (by me) Sufjan Stevens, Bryce Dessner of the indie rock band The National, drummer James McAlister, and contemporary classical music composer and arranger Nico Muhly. I hadn't played it for a year or two before finding it on a previous year's tracklist-shortlist and attempting to see how much I could remember of it. (Spoiler: not much.)\n\nOriginal song: </span><a href=\"https://youtube.com/watch?v=ePYgwZzqS40\">https://youtu.be/ePYgwZzqS40</a>"
 	}, {
 		"rowNum": "125",
 		"title": "Cosmic Hero",
@@ -1274,7 +1271,7 @@
 		"instruments": ["Piano"],
 		"tags": ["Pop"],
 		"id": "0tT6R6cxE5A",
-		"description": "This is a very long song, and it turns out that without the lyrics, listening to the same four chords a hundred times over is really boring. Don't say I didn't warn you.\n\nThe original song isn't on YouTube, but this is: "
+		"description": "<span>This is a very long song, and it turns out that without the lyrics, listening to the same four chords a hundred times over is really boring. Don't say I didn't warn you.\n\nThe original song isn't on YouTube, but this is: </span><a href=\"https://youtube.com/watch?v=RVJXGzbdP34\">https://youtu.be/RVJXGzbdP34</a>"
 	}, {
 		"rowNum": "126",
 		"title": "The Weather",
@@ -1285,7 +1282,7 @@
 		"instruments": ["Piano"],
 		"tags": ["Pop"],
 		"id": "BsubCoC3cW4",
-		"description": "I first learned (taught myself) this when it was released in 2017, but hesitated to record it because the principal thing that attracted me to the song was the instrumentation and the different timbres. I saw reducing it to a piano cover as stripping it of most of what was good about it \u2026 but my standards have fallen in the two years since then, so here we are.\n\nOriginal song: "
+		"description": "<span>I first learned (taught myself) this when it was released in 2017, but hesitated to record it because the principal thing that attracted me to the song was the instrumentation and the different timbres. I saw reducing it to a piano cover as stripping it of most of what was good about it \u2026 but my standards have fallen in the two years since then, so here we are.\n\nOriginal song: </span><a href=\"https://youtube.com/watch?v=gS-bqTWOuKI\">https://youtu.be/gS-bqTWOuKI</a>"
 	}, {
 		"rowNum": "127",
 		"title": "\u0413\u0440\u0430\u0431\u043b\u0438 (Grabli)",
@@ -1296,7 +1293,7 @@
 		"instruments": ["Piano"],
 		"tags": ["Pop"],
 		"id": "aFGOMXFRBio",
-		"description": "Einaudi's all well and good, but nothing beats a good bit of Russian rap.\n\nOriginal song: https://youtu.be/UKxfpyYbh_4"
+		"description": "<span>Einaudi's all well and good, but nothing beats a good bit of Russian rap.\n\nOriginal song: </span><a href=\"https://youtube.com/watch?v=UKxfpyYbh_4\">https://youtu.be/UKxfpyYbh_4</a>"
 	}, {
 		"rowNum": "128",
 		"title": "Drunk Drivers/Killer Whales",
@@ -1307,7 +1304,7 @@
 		"instruments": ["Piano"],
 		"tags": ["Pop"],
 		"id": "0WJEvnMjWM8",
-		"description": "Badly played.\n\nOriginal song: https://youtu.be/ccztRby3FAk"
+		"description": "<span>Badly played.\n\nOriginal song: </span><a href=\"https://youtube.com/watch?v=ccztRby3FAk\">https://youtu.be/ccztRby3FAk</a>"
 	}, {
 		"rowNum": "129",
 		"title": "Blue Bucket of Gold",
@@ -1318,7 +1315,7 @@
 		"instruments": ["Piano"],
 		"tags": ["Pop"],
 		"id": "cB-A8gxaw98",
-		"description": "This is the last track from Sufjan's 2015 album Carrie & Lowell, and not the first I have covered from the album (https://youtu.be/0HMntDPdQII). As you  can tell, it was very unrehearsed, but it sounded too good on the grand piano to not at least attempt a cover.\n\nOriginal song: "
+		"description": "<span>This is the last track from Sufjan's 2015 album Carrie &amp; Lowell, and not the first I have covered from the album (</span><a href=\"https://youtube.com/watch?v=0HMntDPdQII\">https://youtu.be/0HMntDPdQII</a><span>). As you  can tell, it was very unrehearsed, but it sounded too good on the grand piano to not at least attempt a cover.\n\nOriginal song: </span><a href=\"https://youtube.com/watch?v=erqpdc9W8F8\">https://youtu.be/erqpdc9W8F8</a>"
 	}, {
 		"rowNum": "130",
 		"title": "Law Collection Trailer",
@@ -1328,8 +1325,7 @@
 		"year": 2019,
 		"instruments": ["Piano", "Guitar"],
 		"tags": [],
-		"id": "68C1X1wEAZc",
-		"description": ""
+		"id": "68C1X1wEAZc"
 	}, {
 		"rowNum": "131",
 		"title": "Hallelujah",
@@ -1339,8 +1335,7 @@
 		"year": 2019,
 		"instruments": ["Piano", "Guitar"],
 		"tags": ["Pop"],
-		"id": "IfWMiGK0p8E",
-		"description": ""
+		"id": "IfWMiGK0p8E"
 	}, {
 		"rowNum": "132",
 		"title": "Tears in Heaven",
@@ -1350,8 +1345,7 @@
 		"year": 2019,
 		"instruments": ["Piano", "Guitar"],
 		"tags": ["Pop"],
-		"id": "MtB5VL1F4oE",
-		"description": ""
+		"id": "MtB5VL1F4oE"
 	}, {
 		"rowNum": "133",
 		"title": "With You",
@@ -1362,7 +1356,7 @@
 		"instruments": ["Piano", "Guitar"],
 		"tags": ["Pop"],
 		"id": "4nzEnXQj2Fc",
-		"description": "We play \"With You\" by I Fight Dragons far too quickly.\n\nOriginal song: https://youtu.be/_5NlyYBwsds"
+		"description": "<span>We play \"With You\" by I Fight Dragons far too quickly.\n\nOriginal song: </span><a href=\"https://youtube.com/watch?v=_5NlyYBwsds\">https://youtu.be/_5NlyYBwsds</a>"
 	}],
 	"minYear": 2004,
 	"maxYear": 2019

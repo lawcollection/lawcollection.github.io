@@ -12,13 +12,13 @@ var maxYear;
 
 // General functions
 
-function removeFrmArr(array, element) {
-	return array.filter(e => {return e !== element});
+function removeFrmArr (array, element) {
+	return array.filter(e => e !== element);
 }
 
 // https://gist.github.com/iwek/3924925#file-find-in-json-js
 //return an array of objects according to key, value, or key and value matching
-function getObjects(obj, key, val) {
+function getObjects (obj, key, val) {
 	var objects = [];
 	for (var i in obj) {
 		if (!obj.hasOwnProperty(i)) continue;
@@ -39,7 +39,7 @@ function getObjects(obj, key, val) {
 }
 
 //return an array of values that match on a certain key
-function getValues(obj, key) {
+function getValues (obj, key) {
 	var objects = [];
 	for (var i in obj) {
 		if (!obj.hasOwnProperty(i)) continue;
@@ -53,7 +53,7 @@ function getValues(obj, key) {
 }
 
 //return an array of keys that match on a certain value
-function getKeys(obj, val) {
+function getKeys (obj, val) {
 	var objects = [];
 	for (var i in obj) {
 		if (!obj.hasOwnProperty(i)) continue;
@@ -66,7 +66,7 @@ function getKeys(obj, val) {
 	return objects;
 }
 
-function getQueryStrings() {
+function getQueryStrings () {
 	const assoc = {};
 	const decode = function (s) {
 		return decodeURIComponent(s.replace(/\+/g, " "));
@@ -114,17 +114,18 @@ function setBig (video, play) {
 
 	// Set description
 	if (video.description !== undefined) {
-		document.getElementById("description").innerText = video.description;
+		document.getElementById("description").innerHTML = video.description;
 	} else {
-		document.getElementById("description").innerText = "";
+		document.getElementById("description").innerHTML = "";
 	}
 
 	document.getElementById("year").innerText = video.year;
 }
 
+// eslint-disable-next-line no-unused-vars
 function changeVideo (clicked) {
-	console.log(getObjects(videos, "id", clicked.id))
-	setBig(getObjects(videos, "id", clicked.id)[0], true)
+	console.log(getObjects(videos, "id", clicked.id));
+	setBig(getObjects(videos, "id", clicked.id)[0], true);
 }
 
 /**
@@ -137,7 +138,7 @@ function drawVideos (toDraw) {
 		document.getElementById("container").removeChild(document.getElementById("container").lastChild);
 	}
 
-	const container = document.querySelector("#container")
+	const container = document.querySelector("#container");
 	let parentCount = 0;
 
 	for (let i = 0; i < Object.keys(toDraw).length; i++) {
@@ -182,20 +183,20 @@ sites.onload = function () {
 
 	jsonData = JSON.parse(sites.response);
 	videos = jsonData["videos"];
-	minYear = jsonData["minYear"]
-	maxYear = jsonData["maxYear"]
+	minYear = jsonData["minYear"];
+	maxYear = jsonData["maxYear"];
 
 
 	// Generate tag list
 	for (var tag in jsonData["tags"]) {
 
 
-		tag = jsonData["tags"][tag]
+		tag = jsonData["tags"][tag];
 
 		const newTag = document.createElement("span");
 		newTag.setAttribute("class", "tag");
 
-		newTag.innerHTML = tag
+		newTag.innerHTML = tag;
 		// Set tag id to not use spaces and be in lowercase
 		newTag.id = tag.replace(" ", "-").toLowerCase();
 
@@ -213,12 +214,12 @@ sites.onload = function () {
 	// Generate player list
 	for (var player in jsonData["performers"]) {
 
-		player = jsonData["performers"][player]
+		player = jsonData["performers"][player];
 
 		const newPlayer = document.createElement("span");
 		newPlayer.setAttribute("class", "tag");
 
-		newPlayer.innerHTML = player
+		newPlayer.innerHTML = player;
 		// Set tag id to not use spaces and be in lowercase
 		newPlayer.id = player.replace(" ", "-").toLowerCase();
 
@@ -236,12 +237,12 @@ sites.onload = function () {
 	// Generate instrument list
 	for (var instrument in jsonData["instruments"]) {
 
-		instrument = jsonData["instruments"][instrument]
+		instrument = jsonData["instruments"][instrument];
 
 		const newPlayer = document.createElement("span");
 		newPlayer.setAttribute("class", "tag");
 
-		newPlayer.innerHTML = instrument
+		newPlayer.innerHTML = instrument;
 		// Set tag id to not use spaces and be in lowercase
 		newPlayer.id = instrument.replace(" ", "-").toLowerCase();
 
@@ -257,7 +258,7 @@ sites.onload = function () {
 	}
 
 	// Draw all videos
-	drawVideos(videos)
+	drawVideos(videos);
 
 	// Setup years slider
 	slider = document.getElementById("yearsSlider");
@@ -274,7 +275,7 @@ sites.onload = function () {
 		pips: {
 			mode: "values",
 			density: 10,
-			values: [minYear, (maxYear - minYear) / 2 + minYear , maxYear],
+			values: [minYear, (maxYear - minYear) / 2 + minYear, maxYear],
 		},
 		format: wNumb({decimals: 0})
 	});
@@ -285,8 +286,8 @@ sites.onload = function () {
 	if (qs.v) {
 
 		// And it's a valid video
-		if (getObjects(videos,"id", qs.v)[0] !== undefined) {
-			setBig(getObjects(videos,"id", qs.v)[0])
+		if (getObjects(videos, "id", qs.v)[0] !== undefined) {
+			setBig(getObjects(videos, "id", qs.v)[0]);
 		} else {
 			setBig(getObjects(videos, "id", defaultVid)[0]);
 		}
@@ -298,7 +299,7 @@ sites.onload = function () {
 		setBig(getObjects(videos, "id", defaultVid)[0]);
 	}
 
-}
+};
 
 function toggleTag (passed) {
 
@@ -306,9 +307,9 @@ function toggleTag (passed) {
 	if (passed.target.getAttribute("on") === ""){
 
 		// Remove on state
-		passed.target.removeAttribute("on")
+		passed.target.removeAttribute("on");
 
-		passed.target.children[0].remove()
+		passed.target.children[0].remove();
 
 		// Remove from active tags
 		activeTags = removeFrmArr(activeTags, passed.target.innerText);
@@ -316,15 +317,15 @@ function toggleTag (passed) {
 	} else {
 		passed.target.setAttribute("on", "");
 
-		const button = document.createElement("button")
-		button.classList.add("delete", "is-small", "x")
+		const button = document.createElement("button");
+		button.classList.add("delete", "is-small", "x");
 
-		passed.target.appendChild(button)
+		passed.target.appendChild(button);
 
 		activeTags.push(passed.target.innerText);
 	}
 
-	search()
+	search();
 
 }
 
@@ -334,9 +335,9 @@ function togglePlayer (passed) {
 	if (passed.target.getAttribute("on") === ""){
 
 		// Remove on state
-		passed.target.removeAttribute("on")
+		passed.target.removeAttribute("on");
 
-		passed.target.children[0].remove()
+		passed.target.children[0].remove();
 
 		// Remove from active tags
 		activePlayers = removeFrmArr(activePlayers, passed.target.innerText);
@@ -344,15 +345,15 @@ function togglePlayer (passed) {
 	} else {
 		passed.target.setAttribute("on", "");
 
-		const button = document.createElement("button")
-		button.classList.add("delete", "is-small", "x")
+		const button = document.createElement("button");
+		button.classList.add("delete", "is-small", "x");
 
-		passed.target.appendChild(button)
+		passed.target.appendChild(button);
 
 		activePlayers.push(passed.target.innerText);
 	}
 
-	search()
+	search();
 
 }
 
@@ -362,9 +363,9 @@ function toggleInstrument (passed) {
 	if (passed.target.getAttribute("on") === ""){
 
 		// Remove on state
-		passed.target.removeAttribute("on")
+		passed.target.removeAttribute("on");
 
-		passed.target.children[0].remove()
+		passed.target.children[0].remove();
 
 		// Remove from active tags
 		activeInstruments = removeFrmArr(activeInstruments, passed.target.innerText);
@@ -372,15 +373,15 @@ function toggleInstrument (passed) {
 	} else {
 		passed.target.setAttribute("on", "");
 
-		const button = document.createElement("button")
-		button.classList.add("delete", "is-small", "x")
+		const button = document.createElement("button");
+		button.classList.add("delete", "is-small", "x");
 
-		passed.target.appendChild(button)
+		passed.target.appendChild(button);
 
 		activeInstruments.push(passed.target.innerText);
 	}
 
-	search()
+	search();
 
 }
 
@@ -392,7 +393,7 @@ function search () {
 	for (var video in videos) {
 
 		let tagPass = false;
-		let yearPass = true;
+		// let yearPass = true;
 		let playerPass = false;
 		let instrumentPass = false;
 		let searchPass = false;
@@ -410,7 +411,7 @@ function search () {
 		}
 		// If there are no active tags
 		else {
-			tagPass = true
+			tagPass = true;
 		}
 
 
@@ -426,7 +427,7 @@ function search () {
 		}
 		// If there are no active players
 		else {
-			playerPass = true
+			playerPass = true;
 		}
 
 		// If there are any active instruments
@@ -441,7 +442,7 @@ function search () {
 		}
 		// If there are no active players
 		else {
-			instrumentPass = true
+			instrumentPass = true;
 		}
 
 
@@ -450,8 +451,9 @@ function search () {
 
 		// Less than min or more than max
 		if (range[0] > videos[video].year || videos[video].year > range[1] ) {
-			yearPass = false
-			break;
+			// yearPass = false;
+			continue;
+			// break;
 		}
 
 
@@ -467,10 +469,10 @@ function search () {
 				videos[video].instruments,
 				videos[video].tags,
 				videos[video].id
-			]
+			];
 
 			for (let part in parts) {
-				console.log(parts[part])
+				console.log(parts[part]);
 
 				if (typeof parts[part] === "undefined") {break;}
 				else if (typeof parts[part] === "object"){
@@ -479,7 +481,7 @@ function search () {
 
 						if (typeof parts[part][partpart] === "undefined") {break;}
 
-						partpart = parts[part][partpart].toLowerCase()
+						partpart = parts[part][partpart].toLowerCase();
 
 						if (partpart.includes(query)){
 							searchPass = true;
@@ -488,9 +490,9 @@ function search () {
 					}
 
 				} else if (typeof parts[part] === "number") {
-					part = parts[part].toString()
+					part = parts[part].toString();
 				} else {
-					part = parts[part].toLowerCase()
+					part = parts[part].toLowerCase();
 				}
 				console.log(part, query);
 				if (part.includes(query)) {
@@ -504,31 +506,32 @@ function search () {
 
 
 		// Passes all criteria
-		if (tagPass && playerPass && yearPass && instrumentPass && searchPass) {
+		if (tagPass && playerPass && instrumentPass && searchPass) {
 			results.push(videos[video]);
 		}
 	}
 
 
-	drawVideos(results)
+	drawVideos(results);
 }
 
 window.onload = function (){
 	sites.open("get", "videos/data.json", true);
 	sites.send();
 
-	var button = document.getElementById("searchButton")
+	var button = document.getElementById("searchButton");
 	if (button.addEventListener)
 		button.addEventListener("click", search, false); //everything else
 	else if (button.attachEvent)
 		button.attachEvent("onclick", search);  //IE only
 
 
-	document.getElementById("search").addEventListener("keydown", function(e) {
+	document.getElementById("search").addEventListener("keydown", function (e) {
+		// eslint-disable-next-line no-redeclare
 		if (!e) { var e = window.event; }
 
 		// Enter is pressed
-		if (e.keyCode == 13) { document.getElementById("searchButton").click() }
+		if (e.keyCode == 13) { document.getElementById("searchButton").click(); }
 	}, false);
 
 	// Get all "navbar-burger" elements
@@ -551,6 +554,6 @@ window.onload = function (){
 
 			});
 		});
-	}  
+	}
 
-}
+};

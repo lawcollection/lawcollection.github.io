@@ -201,6 +201,10 @@ h3.title.is-5 {
 	margin-bottom: 0.8em;
 }
 
+#searchBar p {
+	margin-block-end: 0;
+}
+
 /* #classical {
 	background-color: rgb(121, 85, 56);
 }

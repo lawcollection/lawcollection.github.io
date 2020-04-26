@@ -17,5 +17,8 @@ p {
 }
 
 #trailer {
-	max-width: 100%;
+	width: 100%;
+	height: 56.25vw;
+	max-height: 90vh;
+	background: #000;
 }
