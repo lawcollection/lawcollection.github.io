@@ -3,4 +3,12 @@ videos/old/
 
 videos/geckodriver.log
 
+videos/*.csv
+
+videos/*.xlsx
+
 geckodriver.log
+
+.DS_Store
+
+.vscode
