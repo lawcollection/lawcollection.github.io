@@ -1,6 +1,6 @@
 /* global noUiSlider wNumb */
 var jsonData;
-var defaultVid = "68C1X1wEAZc";
+var defaultVid = "7zlLuLKKQv8";
 var videos = {};
 const sites = new XMLHttpRequest();
 var activeTags = [];
