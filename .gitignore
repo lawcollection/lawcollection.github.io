@@ -13,3 +13,5 @@ geckodriver.log
 
 .vscode
 videos/sheets_url.txt
+
+.idea/
