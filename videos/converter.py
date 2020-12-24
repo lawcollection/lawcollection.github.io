@@ -1,8 +1,23 @@
 import json
 import csv
+import requests
 
 
-input_file = "Website videos - Sheet1.csv"
+# Download csv from secret google sheets link
+url = ""
+with open("sheets_url.txt") as fileUrl:
+    url = fileUrl.read()
+
+print(url)
+
+response = requests.get(url)
+assert response.status_code == 200, 'Wrong status code'
+
+with open("downloaded.csv", "w", encoding="utf-8") as csvFile:
+    csvFile.write(response.content.decode())
+
+
+input_file = "downloaded.csv"
 output_file = "data.json"
 currentData = {}
 destructive = True
