@@ -33,7 +33,7 @@ def read_csv(file, json_file):
         title = reader.fieldnames
         for row in reader:
 
-            print(not destructive, not dictByKey(currentData["videos"], row["Title"]))
+            # print(not destructive, not dictByKey(currentData["videos"], row["Title"]))
             if destructive or ((not destructive) and (not dictByKey(currentData["videos"], row["Title"]))):
                 # If the row's not empty and has a youtube URL
                 if bool(row["Title"] and row["YouTube url"]):
@@ -101,7 +101,7 @@ def read_csv(file, json_file):
 # Convert csv data into json and write it
 def write_json(data, json_file):
     with open(json_file, "w") as f:
-        f.write(json.dumps(data))
+        f.write(json.dumps(data, indent=2))
 
 
 read_csv(input_file, output_file)
