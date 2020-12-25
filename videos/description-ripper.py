@@ -8,7 +8,7 @@ import json
 
 # If set to true, it will re-rip all descriptions,
 # otherwise it'll only add ones that are currently empty
-destructive = True
+destructive = False
 data = {}
 driver = webdriver.Firefox()
 
@@ -20,14 +20,14 @@ with open("data.json", "r") as f:
 
     for i in range(0, len(data["videos"])):
 
-        if i > 77:
-            print("{}% done".format(((i-77) / (len(data["videos"])-77)) * 100))
 
         i = data["videos"][i]
 
         if destructive or (not destructive and "description" not in i):
 
-            if i["year"] == 2015 or i["year"] == 2019:
+            if i["year"] == 2015 or i["year"] > 2019:
+
+                print("loading row " + i["rowNum"])
 
                 # Go to the youtube page
                 driver.get("https://www.youtube.com/watch?v="+i["id"])
@@ -59,6 +59,7 @@ with open("data.json", "r") as f:
                         a['href'] = "https://youtube.com/watch?v=" + qs["/watch?v"][0]
 
                 if str(soup) == "<!--css-build:shady-->":
+                    print("Vid number {} has no YouTube description".format(i["rowNum"]))
                     i["description"] = ""
                     del i["description"]
                     continue
@@ -69,4 +70,4 @@ with open("data.json", "r") as f:
 driver.close()
 
 with open("data.json", "w") as json_file:
-    json.dump(data, json_file)
+    json.dump(data, json_file, indent=2)

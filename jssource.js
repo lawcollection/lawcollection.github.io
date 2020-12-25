@@ -90,7 +90,7 @@ const qs = getQueryStrings();
 // Specialised funtions
 function setBig (video, play) {
 
-	document.getElementById("songTitle").innerText = video.title;
+	document.getElementById("songTitle").innerHTML = video.title;
 
 	if (video.composer.length !== 0) {
 		document.getElementById("songArtist").innerText = `Composed by ${video.composer.join(", ")}`;
@@ -167,7 +167,7 @@ function drawVideos (toDraw) {
 		// Set tile
 		// clone.innerText = toDraw[video].title + toDraw[video].year
 		// clone.childNodes[5].childNodes[1].textContent = toDraw[video].title;
-		clone.childNodes[7].textContent = toDraw[video].title;
+		clone.childNodes[7].innerHTML = toDraw[video].title;
 		// clone.childNodes[5].childNodes[3].textContent = toDraw[video].year;
 		clone.childNodes[9].textContent = toDraw[video].year;
 
