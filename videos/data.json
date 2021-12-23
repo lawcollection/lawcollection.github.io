@@ -38,6 +38,44 @@
   ],
   "videos": [
     {
+      "rowNum": "142",
+      "title": "Truce",
+      "attribution": "Guitar and vocals performed by Allie",
+      "composer": [
+        "Tyler Joseph"
+      ],
+      "performers": [
+        "Allie"
+      ],
+      "year": 2021,
+      "instruments": [
+        "Guitar",
+        "Vocals"
+      ],
+      "tags": [],
+      "id": "089qTKzHsB4",
+      "description": "On April 20th in 2020 one of my closest friends died and due to COVID restrictions it wasn't until this year his funeral was held. His sister orginised a collection of art (of any kind) made by his friends and family so I recorded some songs to go in it."
+    },
+    {
+      "rowNum": "141",
+      "title": "Lua",
+      "attribution": "Guitar and vocals performed by Allie",
+      "composer": [
+        "Conor Oberst"
+      ],
+      "performers": [
+        "Allie"
+      ],
+      "year": 2021,
+      "instruments": [
+        "Guitar",
+        "Vocals"
+      ],
+      "tags": [],
+      "id": "l0ma_b1E5ys",
+      "description": "On April 20th in 2020 one of my closest friends died and due to COVID restrictions it wasn't until this year his funeral was held. His sister orginised a collection of art (of any kind) made by his friends and family so I recorded some songs to go in it."
+    },
+    {
       "rowNum": "140",
       "title": "Re",
       "attribution": "Piano performed by Matthew",
