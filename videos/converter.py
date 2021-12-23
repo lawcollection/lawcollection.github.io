@@ -40,7 +40,7 @@ def read_csv(file, json_file):
     performers = []
     instruments = []
     minYear = 2004
-    maxYear = 2020
+    maxYear = 2021
     with open(file, encoding="utf8") as csvfile:
         reader = csv.DictReader(csvfile)
 
