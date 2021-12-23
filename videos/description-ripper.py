@@ -20,7 +20,6 @@ with open("data.json", "r") as f:
 
     for i in range(0, len(data["videos"])):
 
-
         i = data["videos"][i]
 
         if destructive or (not destructive and "description" not in i):

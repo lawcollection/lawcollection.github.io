@@ -472,29 +472,20 @@ function search () {
 			];
 
 			for (let part in parts) {
-				console.log(parts[part]);
 
-				if (typeof parts[part] === "undefined") {break;}
-				else if (typeof parts[part] === "object"){
+        // Prep the part for searching for a substring
+				if (typeof parts[part] === "object"){
 
-					for (let partpart in part) {
+          // Skip empty arrays (eg no tags)
+          if (parts[part].length === 0) {continue;}
 
-						if (typeof parts[part][partpart] === "undefined") {break;}
-
-						partpart = parts[part][partpart].toLowerCase();
-
-						if (partpart.includes(query)){
-							searchPass = true;
-						}
-
-					}
-
+          part = parts[part].join(" ").toLowerCase();
 				} else if (typeof parts[part] === "number") {
 					part = parts[part].toString();
 				} else {
-					part = parts[part].toLowerCase();
-				}
-				console.log(part, query);
+          part = parts[part].toLowerCase();
+        }
+
 				if (part.includes(query)) {
 					searchPass = true;
 				}
@@ -502,8 +493,6 @@ function search () {
 			}
 
 		}
-
-
 
 		// Passes all criteria
 		if (tagPass && playerPass && instrumentPass && searchPass) {
